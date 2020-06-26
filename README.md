@@ -3,6 +3,7 @@ Template for Jungla Stack
 
 ## Setup
 
+0. Clone the repo and name the folder for your project: `git clone https://github.com/crazywolf132/Jungla-Stack-Template projectname`
 1. Run `yarn` to install all packages.
 2. Place all fake json files in the `data` directory.
 3. Run `yarn start`
