@@ -1,0 +1,30 @@
+{
+	"name": "jungla-template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --exec babel-node ./server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@jungla/language": "^0.0.6",
+		"@jungla/stack": "^0.0.9"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.2.3",
+		"@babel/core": "^7.4.5",
+		"@babel/node": "^7.2.2",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/register": "^7.0.0",
+		"babel-core": "7.0.0-bridge.0",
+		"babel-eslint": "^10.0.3",
+		"babel-jest": "^24.8.0",
+		"babel-loader": "^8.0.5",
+		"jest": "^24.8.0",
+		"jest-cli": "^24.8.0",
+		"nodemon": "^1.18.9"
+	}
+}
